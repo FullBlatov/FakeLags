@@ -1,0 +1,9 @@
+name: FakeLags
+version: '${version}'
+main: kz.fullblatov.fakelags.FakeLags
+api-version: 1.16
+author: Dmitriy_Morozov
+depend:
+  - packetevents
+commands:
+  trolling:

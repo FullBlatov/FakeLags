@@ -1,0 +1,9 @@
+messages:
+  help: "Используйте /trolling <type> <player>"
+  trolling_enable: "Троллинг %type% включен для %player%"
+  trolling_disable: "Троллинг %type% выключен для %player%"
+  player_not_found: "Игрок не найден"
+  trolling_not_found: "Троллинг не найден"
+  no_permission: "У вас нет прав"
+packet_cancel_chance: 65
+admin_permission: fakelags.admin
