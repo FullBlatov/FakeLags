@@ -17,13 +17,14 @@ public class HotbarTrolling extends AbstractTrolling {
 
     @Override
     public void packetReceive(PacketReceiveEvent event) {
-        final User user = event.getUser();
-        final WrapperPlayServerHeldItemChange packet = new WrapperPlayServerHeldItemChange(ThreadLocalRandom.current().nextInt(9));
-        user.sendPacket(packet);
+        
     }
 
     @Override
     public void packetSend(PacketSendEvent event) {
-
+        final User user = event.getUser();
+        final WrapperPlayServerHeldItemChange packet = new WrapperPlayServerHeldItemChange(ThreadLocalRandom.current().nextInt(9));
+        user.sendPacket(packet);
     }
 }
+
